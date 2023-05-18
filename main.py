@@ -1,11 +1,10 @@
 import sys
-import time as tm
 
 import pyqtgraph as pg
-from pyqtgraph.Qt import QtCore, QtGui
+from pyqtgraph.Qt import QtCore
 import numpy as np
 from PyQt5 import uic
-from PyQt5.QtWidgets import QMainWindow, QGraphicsScene, QApplication
+from PyQt5.QtWidgets import QMainWindow, QApplication
 
 pg.setConfigOptions(antialias=True)
 pg.setConfigOption('background', 'w')
